@@ -1,0 +1,52 @@
+<!--
+    Jack Reinhardt 1-2-2018
+    homepage.html
+  -->
+<!DOCTYPE html>
+<html>
+
+<!-- data -->
+<head>
+  <meta charset="utf-8">
+  <meta name = "viewport" content = "width = device-width">
+  <meta name = "author" content = "Jack Reinhardt">
+  <title>Home</title>
+  <link rel = "stylesheet" href = "./css/stylesheet.css">
+</head>
+
+<!-- clock script -->
+<script src="./javascript/clock.js">
+</script>
+<!-- chooser script -->
+<script src="./javascript/choosers.js">
+</script>
+
+
+<body onload="startTime(); photoChooser(); quoteChooser()">
+
+<!-- Central Display. Time, Welcome, Quote -->
+<section id="central-display">
+  <div class="container">
+    <div class="center">
+      <h1 id="clock"></h1>
+      <h2 id="greeting"></h2>
+      <p id="quote"></p>
+    </div>
+  </div>
+</section>
+
+<!-- Website Links -->
+<section id="websites">
+  <div class="container">
+    <div class="footer">
+      <ul>
+        <li><a href="https://www.google.com">Google</a></li>
+        <li><a href="">Website 2</a></li>
+        <li><a href="">Website 3</a></li>
+        <li><a href="">Website 4</a></li>
+      </ul>
+    </div>
+</section>
+
+</body>
+</html>
